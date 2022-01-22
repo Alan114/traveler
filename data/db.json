@@ -1,0 +1,20 @@
+{
+  "trips": [
+    {
+      "title": "3 days at Izmir",
+      "price": "$100"
+    },
+    {
+      "title": "2 nights in Casablanca",
+      "price": "$200"
+    },
+    {
+      "title": "7 days at Bora-Bora",
+      "price": "$1000"
+    },
+    {
+      "title": "3 night stay in Cordoba",
+      "price": "$300"
+    }
+  ]
+}
