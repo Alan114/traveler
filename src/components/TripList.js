@@ -3,12 +3,13 @@ import "./TripList.css";
 
 const TripList = () => {
   const [trips, setTrips] = useState([]);
+  const [url, setUrl] = useState("http://localhost:3000/trips");
 
   useEffect(() => {
-    fetch("http://localhost:3000/trips")
+    fetch(url)
       .then(response => response.json())
       .then(json => setTrips(json));
-  }, []);
+  }, [url]);
 
   console.log(trips);
 
@@ -24,6 +25,16 @@ const TripList = () => {
             </li>
           ))}
         </ul>
+      </div>
+      <div className="filters">
+        <button
+          onClick={() => setUrl("http://localhost:3000/trips?loc=europe")}
+        >
+          European Trips
+        </button>
+        <button onClick={() => setUrl("http://localhost:3000/trips")}>
+          All Trips
+        </button>
       </div>
     </div>
   );

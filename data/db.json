@@ -3,22 +3,26 @@
     {
       "title": "3 days at Izmir",
       "price": "$100",
-      "id": "1"
+      "id": "1",
+      "loc": "europe"
     },
     {
       "title": "2 nights in Casablanca",
       "price": "$200",
-      "id": "2"
+      "id": "2",
+      "loc": "africa"
     },
     {
       "title": "7 days at Bora-Bora",
       "price": "$1000",
-      "id": "3"
+      "id": "3",
+      "loc": "oceania"
     },
     {
       "title": "3 night stay in Cordoba",
       "price": "$300",
-      "id": "4"
+      "id": "4",
+      "loc": "europe"
     }
   ]
 }
