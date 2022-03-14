@@ -3,7 +3,7 @@ import useFetch from "../hooks/useFetch";
 import "./TripList.css";
 
 const TripList = () => {
-  const [url, setUrl] = useState("http://localhost:3000/trips");
+  const [url, setUrl] = useState("http://localhost:3000/tripsdas");
 
   const { data: trips, isPending, error } = useFetch(url);
 
